@@ -3,13 +3,28 @@ package projectcoding.simplepoll.simpoll;
 import java.util.Arrays;
 
 public class Poll {
-    private String question = "";
-    private String[] choices = new String[2];
-    private int[] votes = new int[2];
-    private int choicesCount = 0;
-    private int currentVotes = 0;
+    private String question;
+    private String[] choices;
+    private int[] votes;
+    private int choicesCount;
+    private int currentVotes;
     private int maxVotes;
-    private int lead = -1;
+    private int lead;
+
+    public Poll() {
+        this.question = "";
+        this.choices = new String[2];
+        this.votes = new int[2];
+        this.choicesCount = this.choices.length;
+        this.currentVotes = 0;
+        this.maxVotes = -1;
+        this.lead = -1;
+    }
+
+    public Poll(String question) {
+        this();
+        this.question = question;
+    }
 
     public String getQuestion() {
         return this.question;
