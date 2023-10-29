@@ -1,4 +1,4 @@
-package projectcoding.taskamanager.task;
+package projectcoding.taskmanager.task;
 
 public class Task {
     

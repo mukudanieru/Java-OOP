@@ -1,8 +1,8 @@
-package projectcoding.taskamanager;
+package projectcoding.taskmanager;
 
 import java.util.Scanner;
 
-import projectcoding.taskamanager.task.Task;
+import projectcoding.taskmanager.task.Task;
 
 public class TaskManager {
     private static final Scanner input = new Scanner(System.in);
