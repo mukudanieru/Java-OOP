@@ -18,7 +18,7 @@ public class App {
     private static void instructons() {
         System.out.println("Options: ");
         System.out.printf(
-        "%26s\n%23s\n%12s\n",
+        "%26s%n%23s%n%12s%n",
         "[1] Add Single Product",
         "[2] Add Box Product",
         "[3] Exit"
@@ -75,13 +75,13 @@ public class App {
 
             int singles = i.getSingles(brand).length;
 
-            System.out.printf("%13s: %d\n", "Singles: ", singles);
+            System.out.printf("%13s: %d%n", "Singles: ", singles);
 
             BoxedProduct[] boxedProducts = i.getBoxes(brand);
 
-            System.out.printf("%11s: %d\n", "Boxes: ", boxedProducts.length);
+            System.out.printf("%11s: %d%n", "Boxes: ", boxedProducts.length);
             
-            System.out.printf("%18s: %d\n", "Total pieces: ", (singles + piecesBox(boxedProducts)));
+            System.out.printf("%18s: %d%n", "Total pieces: ", (singles + piecesBox(boxedProducts)));
         }
 
     }
