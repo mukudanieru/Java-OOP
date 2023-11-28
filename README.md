@@ -72,4 +72,10 @@ The Simple Poll Simulator project introduces a simulation of a basic polling sys
 
 The Task Manager Lab involves the creation of a robust Task Manager system. This project focuses on applying object-oriented programming principles to efficiently manage and organize tasks. Classes and methods are employed to represent tasks, and the system allows for the addition, removal, and tracking of tasks. The lab emphasizes the principles of encapsulation, inheritance, and polymorphism, providing a hands-on experience in designing and implementing a task management application using Java OOP.
 
+### **`Expressions Lab`**
+
+**Description:**
+
+The Expressions lab! This project explores the concept of abstract classes in Java, focusing on the representation of mathematical expressions. The central abstract class, Expressions, serves as the foundation for various expression types, including variable expressions, constant expressions, addition expressions, multiplication expressions, and negated expressions.
+
 ##
